@@ -29,9 +29,9 @@ bugaki/
 
 ## 🛠️ Built With
 
-- **HTML5**
-- **CSS3**
-- **JavaScript (Vanilla)** – for modals, loader, and interactive elements
+- **HTML**
+- **CSS**
+- **JavaScript** – for modals, loader, and interactive elements
 - **AOS (Animate On Scroll Library)** – [AOS Documentation](https://michalsnik.github.io/aos/)
 
 ## 📸 Media & Assets
