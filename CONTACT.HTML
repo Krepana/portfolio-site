@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Basic meta tags for character encoding and mobile responsiveness -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Page title -->
+  <title>Contact Me</title>
+
+  <!-- External stylesheet for styling this page -->
+  <link rel="stylesheet" href="STYLE_CONTACT.CSS" />
+
+  <!-- Animate On Scroll library CSS -->
+  <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- Loader shown while the page is loading -->
+  <div id="loader">
+    <div class="spinner"></div>
+  </div>
+
+  <!-- Navigation Header -->
+  <header class="main-header">
+    <div class="logo">Ana Nika</div>
+    <nav class="main-nav">
+      <ul>
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="about.html">ABOUT</a></li>
+        <li><a href="projects.html">PROJECTS</a></li>
+        <li><a href="contact.html">CONTACT</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Say Hello intro section with fade-up animation on scroll -->
+  <section class="contact-intro" data-aos="fade-up">
+    <h1>SAY HELLO</h1>
+    <p>
+      Fill out the form below to get in touch with me. I'm always excited to hear about new opportunities and I'll do my best to respond to your inquiry within 24 hours.
+    </p>
+  </section>
+
+  <!-- Contact form and contact information section -->
+  <section class="contact-page" data-aos="fade-up">
+    <h2>CONTACT ME</h2>
+
+    <div class="contact-wrapper">
+      <!-- Contact details section -->
+      <div class="contact-info">
+        <p><strong>LOCATION:</strong><br>Croatia, Flexible</p>
+        <p><strong>CONTACT NUMBER:</strong><br>+385989197858</p>
+        <p><strong>EMAIL:</strong><br>ananikabusiness@gmail.com</p>
+
+        <!-- Social media icons linking to respective profiles -->
+        <p><strong>SOCIALS</strong></p>
+        <div class="contact-socials">
+          <a href="https://www.instagram.com/aananikaa?igsh=bHgyNHpxMHFxejdt&utm_source=qr"><img src="IMAGES/Instagram.png" alt="Instagram" /></a>
+          <a href="http://linkedin.com/in/ana-nika-škurla-85a4a5271"><img src="IMAGES/145807.png" alt="LinkedIn" /></a>
+          <a href="https://github.com/Krepana"><img src="IMAGES/733553.png" alt="GitHub" /></a>
+        </div>
+      </div>
+
+      <!-- Contact form users can fill out -->
+      <form class="contact-form">
+        <input type="text" placeholder="Full Name" required />
+        <input type="email" placeholder="Email Address" required />
+        <input type="text" placeholder="Subject" required />
+        <textarea rows="5" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Me Message ✉️</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- AOS animation script initialization -->
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 800, // animation duration in milliseconds
+      once: true     // only animate once per element
+    });
+  </script>
+</body>
+</html>

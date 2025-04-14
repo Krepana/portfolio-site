@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Basic meta settings for character encoding and mobile responsiveness -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <!-- Page title -->
+  <title>About Me</title>
+
+  <!-- Link to custom stylesheet for the about page -->
+  <link rel="stylesheet" href="STYLE_ABOUT.CSS" />
+
+  <!-- Link to Animate On Scroll (AOS) for scroll-triggered animations -->
+  <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- HEADER with navigation -->
+  <header class="main-header">
+    <div class="logo">Ana Nika</div> 
+    <nav class="main-nav">
+      <ul>
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="about.html">ABOUT</a></li>
+        <li><a href="projects.html">PROJECTS</a></li>
+        <li><a href="contact.html">CONTACT</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- ABOUT ME section with introductory paragraph -->
+  <section class="about">
+    <div class="about-content">
+      <h2>ABOUT ME</h2>
+      <p>
+        Hi, I’m Ana Nika — a creative and detail-oriented digital marketing specialist with a passion for storytelling, communication strategies, and content creation. I bring clarity, structure, and impact to every project I take on.
+      </p>
+    </div>
+
+    <!-- GRID layout for career and education history -->
+    <div class="about-grid" style="margin-top: 60px; display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 30px;">
+      <!-- Education and work experience cards -->
+      <div class="about-card">
+        <span class="about-tag">Aug '21 – Jul '25</span>
+        <h3>Bachelors Degree</h3>
+        <p class="sub">@ Fontys Academy for Creative Economy</p>
+        <p>I’m pursuing a Bachelor’s degree in Digital Business Concepts at Fontys University, where I specialize in developing innovative marketing strategies and digital solutions. The program combines creativity, technology, and business to prepare me for modern, future-focused roles in the digital world.</p>
+      </div>
+
+      <div class="about-card">
+        <span class="about-tag">Feb '23 – Jul '23</span>
+        <h3>Digital Marketing Internship</h3>
+        <p class="sub">@ BBDO Zagreb</p>
+        <p>I completed an internship at BBDO Zagreb, where I collaborated with social media managers and creative directors on campaigns for major brands like Jamnica, Dukat, and Nyx. The experience deepened my skills in content creation, brand storytelling, and team-driven creative strategy.</p>
+      </div>
+
+      <div class="about-card">
+        <span class="about-tag">Feb '25 – Present</span>
+        <h3>Coordinator of Operational Activities and Projects</h3>
+        <p class="sub">@ Apriori World</p>
+        <p>As a Project Coordinator at Apriori World, I manage communication strategies, coordinate event planning tasks, and support brand development for international conferences and clients. My role bridges strategic planning and hands-on execution in a fast-paced PR environment.</p>
+      </div>
+
+      <div class="about-card">
+        <span class="about-tag">Jun '21 – Present</span>
+        <h3>Communications Manager</h3>
+        <p class="sub">@ Stayeva11</p>
+        <p>At StayEVA 11, I develop and implement communication strategies that reflect the brand’s boutique luxury positioning. My work focuses on elevating guest engagement through curated content, brand storytelling, and strategic digital presence.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS SECTION with icons and labels -->
+  <section class="services">
+    <h2 class="section-title">SKILLS</h2>
+    <div class="services-grid">
+      <!-- Individual skill cards with logos -->
+      <div class="service-card"><p>Figma</p><img src="IMAGES/figma.png" alt=""></div>
+      <div class="service-card"><p>Adobe Illustrator</p><img src="IMAGES/illustrator.png" alt=""></div>
+      <div class="service-card"><p>Adobe InDesign</p><img src="IMAGES/indesign.png" alt=""></div>
+      <div class="service-card"><p>Adobe Premiere</p><img src="IMAGES/premiere.png" alt=""></div>
+      <div class="service-card"><p>Canva</p><img src="IMAGES/canva.png" alt=""></div>
+      <div class="service-card"><p>Meta Business Suite</p><img src="IMAGES/meta.png" alt=""></div>
+      <div class="service-card"><p>Microsoft Office</p><img src="IMAGES/microsoft.png" alt=""></div>
+      <div class="service-card"><p>Google Analytics</p><img src="IMAGES/google.png" alt=""></div>
+      <div class="service-card"><p>WordPress</p><img src="IMAGES/wordpress.png" alt=""></div>
+      <div class="service-card"><p>VS Code</p><img src="IMAGES/vscode.png" alt=""></div>
+    </div>
+  </section>
+
+  <!-- LET’S WORK SECTION with call to action and social links -->
+  <section class="lets-work" data-aos="fade-up">
+    <p class="lets-work-subtitle">Have a project in mind?</p>
+    <h2 class="lets-work-title">LETS WORK</h2>
+    <div class="lets-work-socials">
+      <a href="http://linkedin.com/in/ana-nika-škurla-85a4a5271" target="_blank">LinkedIn</a>
+      <a href="https://github.com/Krepana" target="_blank">GitHub</a>
+      <a href="https://www.instagram.com/aananikaa?igsh=bHgyNHpxMHFxejdt&utm_source=qr" target="_blank">Instagram</a>
+    </div>
+    <a href="contact.html" class="cta-btn">Contact Me</a>
+  </section>
+
+  <!-- AOS (Animate on Scroll) Initialization -->
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 800,
+      once: true,
+    });
+  </script>
+</body>
+</html>

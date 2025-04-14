@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Meta settings for proper character display and responsive layout -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Title of the page -->
+  <title>Projects</title>
+
+  <!-- External CSS for this page -->
+  <link rel="stylesheet" href="STYLE_PROJECTS.CSS" />
+
+  <!-- AOS (Animate On Scroll) library for scroll-based animations -->
+  <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- Page loader spinner -->
+  <div id="loader">
+    <div class="spinner"></div>
+  </div>
+
+  <!-- Navigation Header -->
+  <header class="main-header">
+    <div class="logo">Ana Nika</div>
+    <nav class="main-nav">
+      <ul>
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="about.html">ABOUT</a></li>
+        <li><a href="projects.html">PROJECTS</a></li>
+        <li><a href="contact.html">CONTACT</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Introductory section for projects -->
+  <section class="projects-intro" data-aos="fade-up">
+    <h1>PROJECTS</h1>
+    <p>A Collection of My Latest Works and Achievements:</p>
+    <p>The projects that define my Passion and Skills</p>
+  </section>
+
+  <!-- Grid displaying preview cards for each project -->
+  <section class="projects-grid" data-aos="fade-up">
+    <!-- Each card opens a modal using an anchor link -->
+    <a href="#modal1" class="project-card">
+      <img src="IMAGES/jamnica.jpg" alt="Project 1" />
+      <span class="project-tag">Social Media</span>
+    </a>
+
+    <a href="#modal2" class="project-card">
+      <img src="IMAGES/zena.jpg" alt="Project 2" />
+      <span class="project-tag">Social Media/Web</span>
+    </a>
+
+    <a href="#modal3" class="project-card">
+      <img src="IMAGES/PROPR.jpg" alt="Project 3" />
+      <span class="project-tag">Conference</span>
+    </a>
+
+    <a href="#modal4" class="project-card">
+      <img src="IMAGES/Stayeva11.jpg" alt="Project 4" />
+      <span class="project-tag">Communication Strategy</span>
+    </a>
+  </section>
+
+  <!-- Downloadable CV button -->
+  <div style="text-align: center; margin: 40px 0;">
+    <a href="INCLUDES/Ana Nika Škurla Professional CV 2.pdf" download class="cta-btn download-cv">Download CV</a>
+  </div>
+
+  <!-- MODALS: Each one corresponds to a project card -->
+  <div id="modal1" class="project-modal">
+    <a href="#" class="modal-bg"></a>
+    <div class="modal-content">
+      <a href="#" class="close-btn">&times;</a>
+      <img src="IMAGES/jamnica.jpg" alt="Project 1" />
+      <h3>Jamnica Social Media Campaign</h3>
+      <p class="project-tag">Social Media</p>
+      <p>While interning at BBDO Zagreb, I worked on Jamnica’s “Radi se” social media campaign, creating engaging content including visuals, Instagram stories, and post copy. The campaign aimed to spotlight hardworking individuals across Croatia, and my contributions helped bring the concept to life through authentic, eye-catching storytelling.</p>
+    </div>
+  </div>
+
+  <div id="modal2" class="project-modal">
+    <a href="#" class="modal-bg"></a>
+    <div class="modal-content">
+      <a href="#" class="close-btn">&times;</a>
+      <img src="IMAGES/zena.jpg" alt="Project 2" />
+      <h3>Baktiv</h3>
+      <p class="project-tag">Social Media/Web</p>
+      <p>During my time at BBDO Zagreb, I also created content for the web and social media channels of Baktiv, aligning visuals and copy with the brand’s health-focused identity to boost engagement and visibility.</p>
+    </div>
+  </div>
+
+  <div id="modal3" class="project-modal">
+    <a href="#" class="modal-bg"></a>
+    <div class="modal-content">
+      <a href="#" class="close-btn">&times;</a>
+      <img src="IMAGES/PROPR.jpg" alt="Project 3" />
+      <h3>22nd PRO PR Conference</h3>
+      <p class="project-tag">Conference</p>
+      <p>I was part of the organizing team for the 22nd PRO PR Conference, where I managed social media communications, conducted lecturer interviews, and supported event logistics. My role combined real-time content creation with behind-the-scenes coordination to ensure a seamless and engaging conference experience.</p>
+    </div>
+  </div>
+
+  <div id="modal4" class="project-modal">
+    <a href="#" class="modal-bg"></a>
+    <div class="modal-content">
+      <a href="#" class="close-btn">&times;</a>
+      <img src="IMAGES/Stayeva11.jpg" alt="Project 4" />
+      <h3>Stayeva11</h3>
+      <p class="project-tag">Communication Strategy</p>
+      <p>For StayEVA 11, I developed a tailored communication strategy that highlights the property’s boutique luxury appeal through consistent branding, curated storytelling, and targeted digital outreach. The strategy enhances guest engagement and positions StayEVA 11 as a premium stay experience in Dubrovnik.</p>
+    </div>
+  </div>
+
+  <!-- CTA Footer: Invitation to work together -->
+  <section class="lets-work" data-aos="fade-up">
+    <p class="lets-work-subtitle">Have a project in mind?</p>
+    <h2 class="lets-work-title">LETS WORK</h2>
+    <div class="lets-work-socials">
+      <a href="http://linkedin.com/in/ana-nika-škurla-85a4a5271" target="_blank">LinkedIn</a>
+      <a href="https://github.com/Krepana" target="_blank">GitHub</a>
+      <a href="https://www.instagram.com/aananikaa?igsh=bHgyNHpxMHFxejdt&utm_source=qr" target="_blank">Instagram</a>
+    </div>
+    <a href="contact.html" class="cta-btn">Contact Me</a>
+  </section>
+
+  <!-- Animate On Scroll JavaScript initialization -->
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 800, // Animation duration
+      once: true     // Only animate once
+    });
+  </script>
+</body>
+</html>

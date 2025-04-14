@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Sets character encoding and viewport settings for responsiveness -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Page title shown on the browser tab -->
+  <title>Portfolio - Ana Nika</title>
+
+  <!-- Link to your main CSS stylesheet -->
+  <link rel="stylesheet" href="STYLE.CSS" />
+
+  <!-- Animate On Scroll (AOS) CSS for scroll animations -->
+  <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- Page loader that displays a spinner before content is shown -->
+  <div id="loader">
+    <div class="spinner"></div>
+  </div>
+
+  <!-- Header section containing logo and navigation menu -->
+  <header class="main-header">
+    <div class="logo">Ana Nika</div>
+    <nav class="main-nav">
+      <ul>
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="about.html">ABOUT</a></li>
+        <li><a href="projects.html">PROJECTS</a></li>
+        <li><a href="contact.html">CONTACT</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section with name, photo and intro text -->
+  <section class="hero" data-aos="fade-up">
+    <div class="hero-left">
+      <h1 class="hero-name">ANA NIKA<br>SKURLA</h1>
+    </div>
+
+    <div class="hero-center">
+      <div class="hero-image-wrapper">
+        <img src="images/my-photo.jpg" alt="Ana Nika">
+      </div>
+    </div>
+
+    <div class="hero-right">
+      <p>Hi, I’m Ana Nika, a passionate marketing communications professional, dedicated to creating meaningful strategies.</p>
+      <a href="contact.html" class="cta-btn">Get in touch</a>
+    </div>
+  </section>
+
+  <!-- About Section with short text and gif -->
+  <section class="about" data-aos="fade-up">
+    <div class="about-content">
+      <div class="about-text">
+        <h2>ABOUT ME</h2>
+        <p>Hi! I'm Ana Nika, a digital marketing specialist with a passion for storytelling and visual communication. I love creating strategies that connect people and ideas in meaningful ways.</p>
+        <div class="about-btn-wrapper">
+          <a href="about.html" class="cta-btn alt">Read More →</a>
+        </div>
+      </div>
+
+      <!-- Fun animated gif to visually enhance the about section -->
+      <div class="about-gif">
+        <img src="INCLUDES/Hello Kitty Pink GIF.gif" alt="Creative Ana GIF" />
+      </div>
+    </div>
+  </section>
+
+  <!-- Services offered section with numbered service cards -->
+  <section class="services" data-aos="fade-up">
+    <h2 class="section-title">SERVICES</h2>
+    <div class="services-grid">
+      <div class="service-card">
+        <span class="card-number">01</span>
+        <h3>SOCIAL MEDIA MANAGING</h3>
+        <p>I manage and grow brand presence across social media platforms through consistent, engaging content and data-driven strategies tailored to your target audience.</p>
+        <span class="arrow">↗</span>
+      </div>
+      <div class="service-card">
+        <span class="card-number">02</span>
+        <h3>CONTENT CREATION</h3>
+        <p>From visuals to copy, I create compelling content that reflects your brand identity, captures attention, and drives engagement across digital channels.</p>
+        <span class="arrow">↗</span>
+      </div>
+      <div class="service-card">
+        <span class="card-number">03</span>
+        <h3>COMMUNICATION STRATEGIES</h3>
+        <p>I develop cohesive communication plans that ensure your message is clear, consistent, and effectively reaches your audience—both online and offline.</p>
+        <span class="arrow">↗</span>
+      </div>
+      <div class="service-card">
+        <span class="card-number">04</span>
+        <h3>STRATEGIC CONSULTING</h3>
+        <p>I help brands align their digital efforts with business goals by identifying opportunities, optimizing workflows, and crafting clear, actionable strategies.</p>
+        <span class="arrow">↗</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials from clients with names and titles -->
+  <section class="testimonials" data-aos="fade-up">
+    <h2 class="section-title">TESTIMONIALS</h2>
+    <div class="testimonials-grid">
+      <div class="testimonial-card">
+        <p>Ana is a pleasure to work with. Professional, plesant, detail-oriented and always on schedule.</p>
+        <h3>DANIJEL</h3>
+        <span>CEO & Founder of Apriori World</span>
+      </div>
+      <div class="testimonial-card">
+        <p>A creative, well-organised and competent individual. Her work is immaculate.</p>
+        <h3>IVICA</h3>
+        <span> Digital Department Director</span>
+      </div>
+      <div class="testimonial-card">
+        <p>Her strategies are innovative and new. Her work helped us a lot in promoting our business.</p>
+        <h3>DUBRAVKA</h3>
+        <span>CEO & Founder of Stayeva11</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Call-to-action section to encourage contact -->
+  <section class="lets-work" data-aos="fade-up">
+    <p class="lets-work-subtitle">Have a project in mind?</p>
+    <h2 class="lets-work-title">LETS WORK</h2>
+    <div class="lets-work-socials">
+      <a href="http://linkedin.com/in/ana-nika-škurla-85a4a5271" target="_blank">LinkedIn</a>
+      <a href="https://github.com/Krepana" target="_blank">GitHub</a>
+      <a href="https://www.instagram.com/aananikaa?igsh=bHgyNHpxMHFxejdt&utm_source=qr" target="_blank">Instagram</a>
+    </div>
+    <a href="contact.html" class="cta-btn">Contact Me</a>
+  </section>
+
+  <!-- AOS (Animate on Scroll) JavaScript initialization -->
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 800, // animation duration in ms
+      once: true     // only animate elements once
+    });
+  </script>
+</body>
+</html>
