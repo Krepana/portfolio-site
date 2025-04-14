@@ -2,9 +2,6 @@
 
 Welcome to my personal portfolio website! This project showcases my skills, experience, and projects as a marketing communications professional with a creative edge in digital strategy and content creation. It is a project for my Graduation Course called "Web Programming".
 
-## 🌐 Live Preview
-You can view the live site here: [GitHub Pages Link or Custom Domain]
-
 ## 📁 Project Structure
 index.html
 about.html
@@ -65,7 +62,7 @@ This site can be easily hosted on GitHub Pages:
 
 Creating this website allowed me to deepen my knowledge of:
 - Responsive web design
-- Layout techniques with Flexbox and Grid
+- Layout techniques
 - Implementing animations using AOS
 - Enhancing user experience with smooth transitions and loaders
 
